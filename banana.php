@@ -2,6 +2,8 @@
 
 session_start();
 
+setcookie("New", "Cookie2")
+
 if (!isset($_SESSION["bananas"])){
     $_SESSION["bananas"] = 1;
     $_SESSION["recent_bunch"] = 1;
